@@ -4,12 +4,11 @@ import pandas as pd
 import joblib
 
 
-# model_path="best_tourism-model_v1.joblib"
-# model = joblib.load(model_path)
+model_path="tourism_project/best_model_v1.joblib"
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-print("BASE_DIR = " + BASE_DIR)
-model_path = os.path.join(BASE_DIR, "best_model_v1.joblib")
+# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# print("BASE_DIR = " + BASE_DIR)
+# model_path = os.path.join(BASE_DIR, "best_model_v1.joblib")
 
 print("model_path = " + model_path)
 model = joblib.load(model_path)
