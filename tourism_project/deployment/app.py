@@ -121,8 +121,6 @@ input_data = pd.DataFrame([{
 
 classification_threshold = 0.5
 
-input_df = pd.DataFrame([input_data])
-
 # -----------------------------
 # Predict
 # -----------------------------
