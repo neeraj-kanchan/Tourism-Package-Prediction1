@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 
-model_path="tourism_project/best_model_v1.joblib"
+model_path="tourism_project/deployment/best_model_v1.joblib"
 
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # print("BASE_DIR = " + BASE_DIR)
